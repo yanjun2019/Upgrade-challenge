@@ -1,0 +1,24 @@
+<suite name="Upgrade_challenge" verbose="10">
+  <parameter name="testBrowser" value="Chrome"/>
+
+  <test name="Web">
+    <classes>
+      <class name="com.upgrade.challenge.testing.Web.tests.smoke">
+        <methods>
+          <include name="test01"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="API">
+    <classes>
+      <class name="com.upgrade.challenge.testing.API.testEndPoints.states">
+        <methods>
+          <include name="test1_statesTotalSize48"/>
+          <include name="test2_onlyOneStateAge19"/>
+          <include name="test3_GeorgiaIsOnlyStateHasAmount3005"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,13 @@
+<suite name="Upgrade_challenge" verbose="10">
+  <parameter name="testBrowser" value="Chrome"/>
+
+  <test name="smoke">
+    <classes>
+      <class name="com.upgrade.challenge.testing.Web.tests.smoke">
+        <methods>
+          <include name="test01"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Upgrade_challenge]" verbose="10">
+  <parameter name="testBrowser" value="Chrome"/>
+  <test thread-count="5" name="API(failed)" verbose="10">
+    <classes>
+      <class name="com.upgrade.challenge.testing.API.testEndPoints.states">
+        <methods>
+          <include name="getResponse"/>
+          <include name="test1_statesTotalSize48"/>
+        </methods>
+      </class> <!-- com.upgrade.challenge.testing.API.testEndPoints.states -->
+    </classes>
+  </test> <!-- API(failed) -->
+</suite> <!-- Failed suite [Upgrade_challenge] -->
